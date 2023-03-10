@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Product Page</title>
+    <style>
+        .col1{
+            width: 50%;
+            display: flex;
+            align-items: stretch;
+        }
+        .col2{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            justify-content: space-between;
+            font-size: 20px;
+        }
+        img{
+            width: 100%;
+        }
+        .flex-container{
+            display: flex;
+            width: 60%;
+            background-color: #EDF6E5;
+            margin: auto;
+            border-radius: 5px;
+
+        }
+        .content-header{
+            font-size: 17px;
+            margin: 3px 3px;
+            padding-left: 20px;
+            padding-top: 10px;
+            font-weight: bold;
+
+        }
+        .item{
+            display: flex;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            
+        }
+        .blue{
+            color: rgb(0, 205, 255)
+        }
+        .green
+        {
+            color: green;
+        }
+        .bold{
+            font-size: 20px;
+        }
+        .b_border{
+            border-left: 4px solid blue;
+            margin-bottom: 8px;
+            
+        }
+        .g_border{
+            border-left: 4px solid green;
+            margin-bottom: 8px;
+
+            
+        }
+        .btn1{
+            display: flex;
+            padding: 3px 10px;
+            border: 1px solid blue;
+            background-color: white;
+        }
+        .btn1:hover{
+            background-color: rgb(0, 205, 255);
+            color: white;
+            cursor: pointer;
+        }
+        .btn2:hover{
+            background-color: rgb(0, 205, 255);
+            color: white;
+            cursor: pointer;
+        }
+        .btn2{
+            
+            border: 1px solid white;
+            background-color: green;
+            color: white;
+            margin-left: 15px;
+            padding: 5px;
+            font-size: 16px;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+
+        /* Content */
+        .flex-container-content{
+            display: flex;
+            width: 60%;
+            margin: auto;
+            border-radius: 5px;
+
+        }
+        .blue-header{
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: rgba(0, 0, 255, 0.637);
+        }
+        .content{
+            width: 100%;
+        }
+
+        .feature {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .feature td, .feature th{
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .feature tr:nth-child(odd){
+            background-color: #EDF6E5;;
+        }
+        .feature tr:hover{
+            background-color: gray;
+
+        }
+
+
+
+
+
+    
+    </style>
+  </head>
+  <body>    
+        <section class="container">
+            <div class="flex-container">
+                <div class="col1">
+                    <img src="img/arduino.jpg" alt="">
+
+                </div>
+                <div class="col2">
+                    <div class="content-header">Orijinal Ardunio Uno Mini-Limited Edition</div>
+                   
+                    <div class="item b_border">Marka Menşei: <span class="blue">Ardunio</span></div>
+                    
+                    <div class="item g_border">Stok Kodu: 20530</div>
+                    
+                    <div class="item b_border">765,66 TL + KDV</div>
+                    
+                    <div class="item g_border"><span class="blue bold">903,48 TL KDV Dahil</span></div>
+                    
+                    <div class="item b_border">
+                        <div class="btn1">-</div>
+                        <div class="btn1">1</div>
+                        <div class="btn1">+</div>
+                        <div class="btn2">Sepete Ekle</div>
+                    </div>
+
+                    <div class="item g_border"><span class="green">*Alışveriş Listeme Ekle</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex-container-content">
+            <div class="content">
+                <div class="blue-header">Orijinal Ardunio Uno Mini Özellikleri</div>
+                <hr>
+                <ul>
+                    <li>6 adet PWM çıkışı sağlayan 14 dijital I/O pini</li>
+                    <li>6 analog girişi pini</li>
+                    <li>16MHz seramik rezonatör</li>
+                    <li>USB-C bağlantı noktası</li>
+                    <li>USB veya harici bir güç kaynağı ile çalışır</li>
+                    <li>Yeniden başlatma tuşu</li>
+                    <li>Anahtar bileşenler</li>
+                    <li>Mikroçip Teknolojisi ATmega16U2 MCU</li>
+                    <li>USB Denetleyicili Mikroçip Teknolojisi ATmega16U2 MCU</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="flex-container-content">
+            <div class="content">
+                <div class="blue-header">Teknik Özellikleri</div>
+                <hr>
+                <table class="feature">
+                    <tr>
+                        <th>Üretici Firma</th>
+                        <th>Ardunio</th>
+                    </tr>
+                    <tr>
+                        <td>SRAM</td>
+                        <td>2KB</td>
+                    </tr>
+                    <tr>
+                        <td>Ürün Boyutları</td>
+                        <td>10.9 x 9.09 x 5cm</td>
+                    </tr>
+                    <tr>
+                        <td>Ürün Ağırlığı</td>
+                        <td>73.6g</td>
+                    </tr>
+
+
+                </table>
+            </div>
+        </section>
+
+  </body>
+</html>

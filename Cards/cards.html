@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Cards</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        position: relative;
+        display: inline-block;
+        background-color: #f2f2f2;
+        width: 75%;
+        height: 500px;
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      h1 {
+        text-align: center;
+      }
+      .card1 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 45%;
+        height: 290px;
+        margin-left: 3%;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 2px lightgray;
+      }
+      .card2 {
+        box-sizing: border-box;
+        position: absolute;
+        left: 50%;
+        width: 45%;
+        height: 290px;
+        margin-left: 2%;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 2px lightgray;
+      }
+      .card1Img {
+        width: 100%;
+        height: 230px;
+        border-radius: 5px;
+        margin: 0px;
+        padding: 0px;
+      }
+      .card2Img {
+        width: 100%;
+        height: 230px;
+        border-radius: 5px;
+      }
+      .foodName {
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 16px;
+        color: #484f4f;
+      }
+      .author {
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 12px;
+        color: lightslategray;
+      }
+      .btn {
+        position: absolute;
+        left: 75%;
+        bottom: 5%;
+        border: 1px solid lightblue;
+        color: blue;
+        background-color: #f7f7f7;
+        height: 30px;
+        width: 70px;
+        border-radius: 5px;
+      }
+      @media (max-width :856px){
+        .btn{
+        left: 65%;
+
+        }
+      }
+      .btn:hover {
+        background-color: green;
+        color: white;
+        cursor: pointer;
+      }
+      .icon{
+        background-color: #eee;
+        position: absolute;
+        display: inline-block;
+        left: 7px;
+        top: 7px;
+        border-radius: 10px;
+        padding:2px 0px 2px 2px;
+        width: 80px;
+      }
+      .material-icons{
+        display: inline-block;
+      }
+      .mins{
+        font-size: 14px;
+        position: absolute;
+        left: 30px;
+        top: 8px;
+        padding: 0px;
+      }
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Recipes</h1>
+
+      <div class="card1">
+        <img src="img/stew.jpg" class="card1Img" />
+        <div class="icon">
+          <i class="material-icons">access_time</i>
+          <div class="mins">25 MIN</div>
+          
+        </div>
+        
+        <footer>
+          <div class="foodName">5 Bean Chili Stew</div>
+          <div class="author">Recipe by Mehmet</div>
+          <button class="btn">Details</button>
+        </footer>
+      </div>
+      <div class="card2">
+        <img src="img/curry.jpg" class="card2Img" />
+        <div class="icon">
+          <i class="material-icons">access_time</i>
+          <div class="mins">25 MIN</div>
+          
+        </div>
+        <div class="foodName">Tofu Curry</div>
+        <div class="author">Recipe by Aysu</div>
+        <button class="btn">Details</button>
+      </div>
+      <div class="foodName"></div>
+    </div>
+  </body>
+</html>

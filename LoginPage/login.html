@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      #loginPage {
+        position: relative;
+        padding: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 5px;
+        width: 400px;
+        background-color: #f2f2f2;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 2px grey;
+      }
+      h1 {
+        margin-top: 5px;
+      }
+
+      .googleBtn {
+        display: inline-block;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: 2px solid red;
+        color: red;
+        margin: 5px;
+        margin-bottom: 20px;
+      }
+      .googleBtn:hover {
+        background-color: green;
+        color: white;
+        cursor: pointer;
+      }
+
+      .facebookBtn {
+        display: inline-block;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: 2px solid blue;
+        color: blue;
+        margin: 5px;
+      }
+      .facebookBtn:hover {
+        background-color: green;
+        color: white;
+        cursor: pointer;
+      }
+
+      .linkedinBtn {
+        display: inline-block;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: 2px solid red;
+        color: red;
+        margin: 5px;
+      }
+      .linkedinBtn:hover {
+        background-color: green;
+        color: white;
+        cursor: pointer;
+      }
+
+      .textArea {
+        display: inline-block;
+        width: 100%;
+        margin: 10px 0;
+        padding-left: 10px;
+        height: 40px;
+        border: 1px solid #f2f2f2;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      .submitBtn {
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: green;
+        color: white;
+      }
+      .submitBtn:hover{
+
+        background-color: greenyellow;
+        cursor: pointer;
+        color: black;
+
+
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div id="loginPage">
+        <h1>Login</h1>
+        <div class="buttons">
+          <button class="googleBtn">G</button>
+          <button class="facebookBtn">f</button>
+          <button class="linkedinBtn">in</button>
+        </div>
+        <input type="email" class="textArea" placeholder="Your Email" />
+        <input type="password" class="textArea" placeholder="Password" />
+        <input type="submit" class="submitBtn" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

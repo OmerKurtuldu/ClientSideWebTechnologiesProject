@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+        .headerPage{
+
+            background: linear-gradient(rgb(40, 42, 53, 0.90),rgb(40, 42, 53, 0.90)),url('P1-img/bg-img.jpg');
+            width: 100%;
+            height: 630px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+   
+        }
+        .header-content{
+            color: white;
+           text-align: center;
+
+        }
+        .btn{
+            color: white;
+            border: 0 solid white;
+            border-radius: 20px;
+            background-color: #006600
+        }
+        .col
+        {
+            margin-top: 60px;
+            text-align: center;
+        }
+        .text-secondary{
+            font-size: 18px;
+        }
+
+        .header-info{
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            padding-top:50px;
+        }
+        .img-1, .img-2{
+            padding: 2px;
+        }
+
+        .img-col{
+
+            width: auto;
+            text-align: center;
+            padding: 1px;
+
+        }
+        .row{
+            justify-content: center;
+        }
+        /* howitworks */
+
+        .howit-works{
+            background-color: black;
+            width: 100%;
+
+        }
+        .container-fluid{
+            background-color: #404040
+        }
+        .hiw-contents{
+            margin: 30px 15px;
+            padding: 0;
+            width: 14%;
+            text-align: center;
+        }
+        
+        .howit-works-text{
+            color: white;
+
+
+        }
+        .how-it-works-img{
+            display: block;
+            margin-bottom: 25px;
+            margin: 20px auto;
+            
+        }
+        .col-hiw{
+
+            text-align: center;
+        }
+
+
+        /* media queries */
+
+        @media screen and (min-width: 992px) {
+            .disable-sm{
+                display: none;
+                visibility: hidden;
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            .disable{
+                display: none;
+                visibility: hidden;
+            }
+        }
+
+        /* cards */
+        .month{
+            font-size: 14px;
+        }
+        .list-card{
+            list-style-type: none;
+        }
+        .cards-col{
+            text-align: left;
+
+            
+        }
+        .cards-col .card{
+            padding: 10px;
+
+            
+        }
+        .bi{
+            background-color: lightblue;
+            border-radius: 50%;
+        }
+
+    </style>
+  </head>
+  <body>
+    
+    <header class="headerPage">
+        <div class="header-content">
+            <div class="header-content-items">
+                <h1 style="font-size: 45px;">Create a Free Website</h1>
+                <p style="font-size: 20px;">Everything you need right in the browser</p>
+                <p>Build your own website. It is easy to use -try it!</p>
+                <button class="btn">Get started for free</button>
+            </div>
+        </div>
+        
+
+    </header>
+
+    <main class="mainPage">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gp-5">
+            <div class="col">
+                <h2 class="text-success">Website</h2>
+                <p class="tex-secondary">Create your own website an share it with others</p>
+            </div>
+            <div class="col">
+                <h2 class="text-success">Code Editor</h2>
+                <p class="tex-secondary">Code directly in your browser.</p>
+            </div>
+            <div class="col">
+                <h2 class="text-success">File Manager</h2>
+                <p class="tex-secondary">Start w,th ready to-use designs and structures</p>
+            </div>
+            <div class="col">
+                <h2 class="text-success">Playground</h2>
+                <p class="tex-secondary">Upload and handle files in your browser</p>
+            </div>
+            <div class="col">
+                <h2 class="text-success">Website</h2>
+                <p class="tex-secondary">Learn, test,and go live with your space</p>
+            </div>
+            <div class="col">
+                <h2 class="text-success">Website</h2>
+                <p class="tex-secondary">Playground for HTML, CSS AND JavaScript </p>
+            </div>
+        </div>
+        
+    </main>
+
+    <section class="container-fluid">
+        <header class="header-info disable-sm" >How it Works?</header>
+        <div class="row row-cols-1 row-cols-md-2 gp5 disable-sm">
+            <div class="col col-hiw">
+                <img src="P1-img/img1.svg" class="how-it-works-img">
+                <span class="howit-works-text">1. Join and create a space</span>
+            </div>
+            <div class="col">
+                <img src="P1-img/img3.svg" class="how-it-works-img">
+                <span class="howit-works-text">2. Choose a template - or start from scretch</span>
+            </div>
+            <div class="col">
+                <img src="P1-img/img5.svg" class="how-it-works-img">
+                <span class="howit-works-text">3.Edit code directly in your browser</span>
+            </div>
+            <div class="col">
+                <img src="P1-img/img6.svg" class="how-it-works-img">
+                <span class="howit-works-text">4.Share your website with the world</span>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <section class="container-fluid">
+            <header class="header-info disable" >How it Works?</header>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 disable">
+                <div class="col img-col">
+                    <img src="P1-img/img1.svg" class="img-1">
+                    <img src="P1-img/img2.svg" class="img-2 ">
+                    <br>
+    
+                </div>
+                <div class="col img-col">
+                    <img src="P1-img/img3.svg" class="img-1">
+                    <img src="P1-img/img4.svg" class="img-2 ">
+                </div>
+                <div class="col img-col">
+                    <img src="P1-img/img5.svg" class="img-1">
+                    <img src="P1-img/img2.svg" class="img-2 ">
+                </div>
+                <div class="col img-col">
+                    <img src="P1-img/img6.svg" class="img-1 ">
+
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 disable">
+                <div class="col text-white hiw-contents "><span class="how-it-works-contents"> 1. Join and create a space</span></div>
+                <div class="col text-white hiw-contents "><span class="how-it-works-contents"> 2. Choose a template - or start from scratch </span></div>
+                <div class="col text-white hiw-contents "><span class="how-it-works-contents"> 3.Edit code directly in your browser</span></div>
+                <div class="col text-white hiw-contents "><span class="how-it-works-contents"> 4.Share your website with the world</span></div>
+            </div>
+    </section>
+
+    <section class="cards my-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col cards-col">
+                    
+                    <div class="card mb-3 shadow">
+                        <h1>$0.00/<span class="month">month</span></h1>
+                        <h1>Free</h1>
+                        <p style="font-weight: bold;">For new web developers ready create their first site.</p>
+                        <ul class="list-card">
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>Browse with ads</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>Build static sites</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>1 space</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>100 MB storage</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>75 MB data/month</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>500 requests/month</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>myhost.com subdomain</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>SSL certificate</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col cards-col">
+                    
+                    <div class="card mb-3 shadow">
+                        <h1>$0.00/<span class="month">month</span></h1>
+                        <h1>Free</h1>
+                        <p style="font-weight: bold;">For new web developers ready create their first site.</p>
+                        <ul class="list-card">
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>Browse with ads</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>Build static sites</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>1 space</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>100 MB storage</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>75 MB data/month</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>500 requests/month</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>myhost.com subdomain</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>SSL certificate</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="col cards-col">
+                    
+                        <div class="card mb-3 shadow">
+                            <h1>$0.00/<span class="month">month</span></h1>
+                            <h1>Free</h1>
+                            <p style="font-weight: bold;">For new web developers ready create their first site.</p>
+                            <ul class="list-card">
+                                <li>
+                                    <i class="bi bi-check"></i>
+                                    <span>Browse with ads</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check"></i>
+                                    <span>Build static sites</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check"></i>
+                                    <span>1 space</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check"></i>
+                                    <span>100 MB storage</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check"></i>
+                                    <span>75 MB data/month</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check"></i>
+                                    <span>500 requests/month</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check"></i>
+                                    <span>myhost.com subdomain</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check"></i>
+                                    <span>SSL certificate</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        <div class="col cards-col">
+                    
+                            <div class="card mb-3 shadow">
+                                <h1>$0.00/<span class="month">month</span></h1>
+                                <h1>Free</h1>
+                                <p style="font-weight: bold;">For new web developers ready create their first site.</p>
+                                <ul class="list-card">
+                                    <li>
+                                        <i class="bi bi-check"></i>
+                                        <span>Browse with ads</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check"></i>
+                                        <span>Build static sites</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check"></i>
+                                        <span>1 space</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check"></i>
+                                        <span>100 MB storage</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check"></i>
+                                        <span>75 MB data/month</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check"></i>
+                                        <span>500 requests/month</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check"></i>
+                                        <span>myhost.com subdomain</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check"></i>
+                                        <span>SSL certificate</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+
+    </section>
+   
+  </body>
+</html>
